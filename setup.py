@@ -8,13 +8,13 @@ setup(
     name='tornado-smtpclient',
     version='0.1.5',
     packages=['tornado_smtpclient'],
-    url='https://github.com/vuamitom/tornado-smtpclient',
+    url='https://github.com/Rustem/tornado-smtpclient.git',
     license='MIT',
-    author='Tam Vu',
+    author='xepa4ep',
     keywords = ["tornado", "smtp", "email", "client", "non blocking", "async"],
     author_email='vumhtam@gmail.com',
     description='A non-blocking smtp client to work with tornado-based application',
-    install_requires=['tornado'],
+    install_requires=['tornado>=4.2'],
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         # How mature is this project? Common values are
@@ -32,8 +32,7 @@ setup(
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 2.7',
     ],
     long_description=long_description
 )
